@@ -6,9 +6,21 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <div id="home-container" >
+                    <h2 id="home-score" class="score">0</h2>
+                </div>
+                <button id="home-score-btn-1" class="score-bnt" onclick="increaseHomeScoreOne()">+ 1</button>
+                <button id="home-score-btn-2" class="score-bnt" onclick="increaseHomeScoreTwo()">+ 2</button>
+                <button id="home-score-btn-3" class="score-bnt" onclick="increaseHomeScoreThr()">+ 3</button>
             </div>
             <div>
                 <h3>GUEST</h3>
+                <div id="guest-container">
+                    <h2 id="guest-score" class="score">0</h2>
+                </div>
+                <button id="guest-score-btn-1" class="score-bnt" onclick="increaseGuestScoreOne()">+ 1</button>
+                <button id="guest-score-btn-2" class="score-bnt" onclick="increaseGuestScoreTwo()">+ 2</button>
+                <button id="guest-score-btn-3" class="score-bnt" onclick="increaseGuestScoreThr()">+ 3</button>
             </div>
         </div>
         <script src="index.js"></script>
